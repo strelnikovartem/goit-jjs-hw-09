@@ -6,3 +6,10 @@ const formData = {
   email: '',
   message: '',
 };
+
+form.addEventListener('input', onForm);
+
+function onForm(evt) {
+  const massege = evt.target.value;
+  console.dir(massege);
+}
