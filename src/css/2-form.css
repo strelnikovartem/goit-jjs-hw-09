@@ -8,6 +8,7 @@
   padding: 8px;
   display: flex;
   flex-direction: column;
+  text-align: left;
 }
 
 .feedback-form input,
