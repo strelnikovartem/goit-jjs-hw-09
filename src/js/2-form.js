@@ -7,9 +7,9 @@ const formData = {
   message: '',
 };
 
-feedbackForm.addEventListener('input', onForm);
+feedbackForm.addEventListener('input', onFeedbackFormInput);
 
-function onForm(evt) {
+function onFeedbackFormInput(evt) {
   const message = evt.target.value;
   console.dir(massege);
 }
