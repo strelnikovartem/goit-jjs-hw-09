@@ -1,4 +1,4 @@
-const form = document.querySelector('.feedback-form');
+const feedbackForm = document.querySelector('.feedback-form');
 
 const STORAGE_KEY = 'feedback-form-state';
 
@@ -7,9 +7,9 @@ const formData = {
   message: '',
 };
 
-form.addEventListener('input', onForm);
+feedbackForm.addEventListener('input', onForm);
 
 function onForm(evt) {
-  const massege = evt.target.value;
+  const message = evt.target.value;
   console.dir(massege);
 }
