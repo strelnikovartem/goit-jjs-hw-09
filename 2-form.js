@@ -1,2 +1,2 @@
-import"./assets/modulepreload-polyfill-B5Qt9EMX.js";/* empty css                      */const o=document.querySelector(".feedback-form"),n="feedback-form-state";o.addEventListener("input",r);function r(t){const e=t.currentTarget.elements.email.value;localStorage.setItem(n,e),console.dir(e)}
+import"./assets/modulepreload-polyfill-B5Qt9EMX.js";/* empty css                      */const n=document.querySelector(".feedback-form"),r="feedback-form-state";n.addEventListener("input",a);function a(e){const t=e.currentTarget.elements.email.value,o=e.currentTarget.elements.message.value;localStorage.setItem(r,o),console.dir(t)}
 //# sourceMappingURL=2-form.js.map
