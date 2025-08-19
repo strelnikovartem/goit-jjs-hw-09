@@ -11,5 +11,6 @@ feedbackForm.addEventListener('input', onFeedbackFormInput);
 
 function onFeedbackFormInput(evt) {
   const message = evt.currentTarget.elements.email.value;
+  localStorage.setItem(STORAGE_KEY, message);
   console.dir(message);
 }
