@@ -10,6 +10,6 @@ const formData = {
 feedbackForm.addEventListener('input', onFeedbackFormInput);
 
 function onFeedbackFormInput(evt) {
-  const message = evt.target.value;
-  console.dir(massege);
+  const message = evt.currentTarget.elements.email.value;
+  console.dir(message);
 }
