@@ -1,3 +1,5 @@
+import simpleLightbox from 'simplelightbox';
+
 const images = [
   {
     preview:
