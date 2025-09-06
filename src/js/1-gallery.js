@@ -98,3 +98,7 @@ container.addEventListener('click', evt => {
 });
 
 const defender = folder;
+
+function lopo() {
+  console.log('post');
+}
